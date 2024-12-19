@@ -39,5 +39,9 @@ public class App {
         System.out.println("Name: " + name + " Age: " + age + " Address: " + address);
     }
 
+    public static void d(String[] args) {
+        App obj = new App(1, 20, 123);
+        obj.display();
+    }
     
 }
